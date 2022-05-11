@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #f7f3f0;
+}
+.navbar-collapse a{
+    margin: 20px;
+}
+.body-header{
+    background: url(/CaseStudy2_HoneyWebPage/img/about-us-background.jpg);
+    height: 350px;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 100px 100px 100px; */
+}
+.our-team{
+    background-color: #f7f3f0;
+}
+.about-us{
+    padding-left: 48px;
+    padding-top: 100px;
+}
+.text-head{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.body p{
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.body h3{
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.body{
+    padding-bottom: 70px;
+}
+footer{
+    background-color: rgb(240, 159, 79);
+}

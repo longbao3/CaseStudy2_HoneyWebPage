@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
+    padding: 0px;
 }
-header{
-    background-color: #f7f3f0;
+body{
+    overflow-x: hidden;
 }
 .navbar-collapse a{
     margin: 20px;
 }
-.body-header{
+header{
     background: url(/CaseStudy2_HoneyWebPage/img/blog-h1.jpg);
     height: 350px;
     /* background-attachment: fixed;
@@ -38,9 +39,107 @@ header{
     padding-left: 20px;
     padding-right: 20px;
 }
-.img-comment {
-
+.header-text h1{
+    font-size: 70px;
+    line-height: 350px;
+}
+.orange{
+    color: rgb(221, 104, 36);
+}
+.img-user{
+    width: 50px;
+    height: 50px;
 }
 footer{
     background-color: rgb(240, 159, 79);
+}
+
+/*  */
+/* tablets */
+@media (max-width: 991.98px){ 
+    .navbar-expand-lg{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .contact-btn{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .body-blog{
+        margin-top: 50px;
+    }
+    .sidebar-news{
+        padding-right:0px;
+        margin-right: -10px;
+    }
+    .Category{
+        padding-right:0px;
+        margin-right: -10px;
+    }
+    .Category h3{
+        font-size: 1.5rem;
+    }
+    .Newlester{
+        padding-right:0px;
+        margin-right: -10px;
+    }
+    .Newlester h3{
+        font-size: 1.5rem;
+    }
+
+}
+/* mobile */
+@media (max-width: 767.98px){
+    .body-header{
+        background: url(/CaseStudy2_HoneyWebPage/img/blog-h1.jpg);
+        background-size:1200px 250px;
+        background-repeat: no-repeat;
+        background-position: -300px;
+    }
+    .information .col-sm-12{
+        padding: 20px;
+    }
+    .categories{
+        display: block !important;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .popular-products{
+       margin: auto;
+       padding: 0;
+    }
+    .popular-text{
+        margin-left: -45px;
+    }
+    .form-range{
+        width: 300px;
+    }
+    .contact-btn{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .navbar-expand-lg{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .body-blog{
+      margin-left: -50px;
+      padding-right:5px ;
+    }
+    .text-right{
+        text-align: start !important;
+    }
+    .related-tag{
+        display: none;
+    }
+    .comments .d-flex{
+       margin-left: -50px;
+    }
+    .information .col-md-3{
+        padding-top: 20px;
+    }
 }

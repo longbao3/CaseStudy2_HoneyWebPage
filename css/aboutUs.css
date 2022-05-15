@@ -1,8 +1,14 @@
 *{
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 header{
     background-color: #f7f3f0;
+}
+.orange-red{
+    color: rgb(213, 169, 87);
 }
 .navbar-collapse a{
     margin: 20px;
@@ -13,6 +19,11 @@ header{
     /* background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0 100px 100px 100px; */
+}
+.header-text h1{
+    font-size: 70px;
+    line-height: 100px;
+    padding-top: 100px;
 }
 .our-team{
     background-color: #f7f3f0;
@@ -38,4 +49,45 @@ header{
 }
 footer{
     background-color: rgb(240, 159, 79);
+}
+/*  */
+/* tablets */
+@media (max-width: 991.98px){ 
+    .navbar-expand-lg{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .contact-btn{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .body-blog{
+        margin-top: 50px;
+    }
+
+}
+/* mobile */
+@media (max-width: 767.98px){
+    .body-header{
+        background: url(/CaseStudy2_HoneyWebPage/img/about-us-background.jpg);
+        background-size:1200px 250px;
+        background-repeat: no-repeat;
+        background-position: -300px;
+    }
+    .text-about-us{
+        font-size: 2rem;   
+    }
+    .about-us{
+        margin-left: -25px;
+        padding-right:5px ;
+    }
+    .information .col-md-3{
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 575.98px){
+
 }
